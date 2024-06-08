@@ -1,0 +1,118 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f9ff; /* Light grey */
+    color: #343a40; /* Dark grey */
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #343a40; /* Dark grey */
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+  }
+  
+  .navbar-toggler-icon {
+    color: #fff; /* White */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff; /* White */
+  }
+  .navbar-nav a {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #ffc107; /* Yellow */
+  }
+  
+  
+  /* Menu Item Styles */
+  .menu-item .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-item .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Modal Styles */
+  .modal-content {
+    background-color: #fff; /* White */
+    border-radius: 15px;
+  }
+  
+  .modal-header {
+    background-color: #343a40; /* Dark grey */
+    color: #fff; /* White */
+    border-bottom: none;
+  }
+  
+  .modal-body img {
+    border-radius: 15px;
+  }
+  
+  /* Testimonials Blockquote Styles */
+  .blockquote {
+    border-left: 7px solid #ffc107; /* Yellow */
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  /* Gallery Styles */
+  #gallery img {
+    border-radius: 15px;
+  }
+  
+  #gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Contact Form Styles */
+  .form-control {
+    border-radius: 15px;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #343a40; /* Dark grey */
+    color: #fff; /* White */
+    padding: 20px 0;
+  }
+  
+  .footer a {
+    color: #ffffff; /* Yellow */
+  }
+  
+  .footer a:hover {
+    background-color: #ffffff; /* White */
+  }
+  
+  /* Back to Top Button Styles */
+  #back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    font-size: 24px;
+    background-color: #0787ff; /* Yellow */
+    color: #ffffff; /* Dark grey */
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  #back-to-top:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /* background-color: #ffa500; Orange */
+  }
+  
